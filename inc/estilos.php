@@ -24,7 +24,7 @@ function tzone_estilos(){
 
 
 	//registrar Js, agregamos al final true para que nuestros Js se cargen en el footer.
-	wp_register_script('analitics', get_template_directory_uri().'/js/analitycs.js', array(), '1.0.0', true );
+	//wp_register_script('analitics', get_template_directory_uri().'/js/analitycs.js', array(), '1.0.0', true );
 	wp_register_script('scripts', get_template_directory_uri().'/inc/scripts.js', array('jquery'),'1.0.0', true);
 //	wp_register_script('bootstrapjs', get_template_directory_uri().'/js/bootstrap.min.js', array('jquery'),'4.0.0', true);
 	wp_register_script('prefixfree', get_template_directory_uri().'/js/prefixfree.min.js', array('jquery'),'3.0.0', true);
