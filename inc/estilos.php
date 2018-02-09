@@ -33,7 +33,7 @@ function tzone_estilos(){
 	wp_register_script('menu', get_template_directory_uri().'/js/menu.js', array('jquery'),'2.0.0', true);
 
 	wp_enqueue_script('jquery');
-	wp_enqueue_script('analitics');
+	//wp_enqueue_script('analitics');
 //	wp_enqueue_script('bootstrapjs');
 	wp_enqueue_script('scripts');
 	wp_enqueue_script('prefixfree');
