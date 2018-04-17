@@ -16,6 +16,13 @@ set_post_thumbnail_size(1024,1024,true );
 add_image_size('mscthumb', 1024, 1024, true);
 the_post_thumbnail( 'mscthumb');
 
+function logo_iata(){
+$logo = IMAGES.'/Iata_official_logo.png'; ?>
+<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo $logo; ?>" alt="TravelZone es: IATA"></a>
+<?php
+}
+
+
 include (TEMPLATEPATH. '/inc/estilos.php');
 include (TEMPLATEPATH. '/files/bread.php');
 include (TEMPLATEPATH . '/libs/menux.php');

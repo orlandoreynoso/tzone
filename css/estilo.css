@@ -60,12 +60,28 @@ header {
   padding: 10px 0;
   font-size: 1em;
   font-weight: bold; }
+  .busca-redes .iata {
+    background-color: red;
+    box-sizing: border-box;
+    width: 200px;
+    height: 83px;
+    display: block; }
+    .busca-redes .iata a {
+      display: block;
+      box-sizing: border-box; }
+      .busca-redes .iata a img {
+        width: auto;
+        height: 83px;
+        display: block;
+        box-sizing: border-box; }
   .busca-redes .redes {
     text-align: right; }
-    .busca-redes .redes .tredes {
+    .busca-redes .redes .tredes,
+    .busca-redes .redes .busca {
       display: inline-block;
       font-weight: 500; }
-      .busca-redes .redes .tredes .t-cin {
+      .busca-redes .redes .tredes .t-cin,
+      .busca-redes .redes .busca .t-cin {
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
@@ -76,16 +92,21 @@ header {
         width: 100%;
         color: #212121;
         font-weight: 600; }
-        .busca-redes .redes .tredes .t-cin:hover {
+        .busca-redes .redes .tredes .t-cin:hover,
+        .busca-redes .redes .busca .t-cin:hover {
           text-decoration: none; }
-        .busca-redes .redes .tredes .t-cin .t-c {
+        .busca-redes .redes .tredes .t-cin .t-c,
+        .busca-redes .redes .busca .t-cin .t-c {
           width: 100%; }
-        .busca-redes .redes .tredes .t-cin .t-n {
+        .busca-redes .redes .tredes .t-cin .t-n,
+        .busca-redes .redes .busca .t-cin .t-n {
           width: 100%;
           display: block; }
-          .busca-redes .redes .tredes .t-cin .t-n:hover {
+          .busca-redes .redes .tredes .t-cin .t-n:hover,
+          .busca-redes .redes .busca .t-cin .t-n:hover {
             color: #ff5252; }
-          .busca-redes .redes .tredes .t-cin .t-n .t-i {
+          .busca-redes .redes .tredes .t-cin .t-n .t-i,
+          .busca-redes .redes .busca .t-cin .t-n .t-i {
             margin-right: 10px;
             color: #ff5252; }
     .busca-redes .redes .cfacebook {

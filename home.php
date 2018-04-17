@@ -53,6 +53,7 @@ Template Post Type: post, page, product
 
          </div>
         <div class="col-xs-12 col-md-4 contenido-laterales">
+          <div class="search"><?php  get_search_form(); ?></div>
           <?php include (TEMPLATEPATH . '/libs/lateral.php'); ?>         
         </div>
      </div>

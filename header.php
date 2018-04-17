@@ -13,55 +13,8 @@
 <body>
 
 <header class="t-header">
-	<div class="head-tzone">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-md-4 logo-tzone">
-					<a class="logo" href="<?php bloginfo('url' ); ?>">
-						<!-- img src="<?php  // echo get_bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="" -->
-					</a>
-				</div>
-				<div class="col-xs-12 col-md-8 busca-redes">
-					<div class="col-xs-12 col-md-6 redes">
-						<div class="tredes">
-							<a class="t-cin" href="<?php bloginfo('url'); ?>/contacto">
-								<span class="t-c" >Contáctanos</span>
-								<span class="t-n"><i class="t-i fa fa-phone-square "></i> (502) 2361-1627 | (502) 2361 - 1617</span>
-							</a>
-						</div>
-					</div>
-					<div class="col-xs-12 col-md-6 busca">
-						<div class="search"><?php  get_search_form(); ?></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="fa-responsive">
-		<div class="container">
-	    	<div class="col-xs-12">
-	    		<div class="resp">
-	    			<div class="ititulo"><h2>Menu</h2></div>
-	    			<div class="iconoresp">
-						<a href="#" class="btn-menu" id="btn-menu">
-							<i class="icono fa fa-bars"></i>
-						</a>
-					</div>
-	    		</div>
+	<?php get_template_part( 'template/menu', 'desk'); ?>
+	<?php get_template_part( 'template/menu', 'movil'); ?>
+	<?php get_template_part( 'template/menu', 'general'); ?>
 
-
-	    	</div>
-		</div>
-	</div>
-	<nav id="men">
-		<div class="container">
-			<div class="col-md-12">
-				<div class="menucin" id="menucin">
-					<div class="mini">
-					<?php  showMenu(); ?>
-					</div>
-				</div>
-	    	</div>
-	    </div>
-	</nav>
 </header>
