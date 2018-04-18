@@ -19,8 +19,9 @@ Template Post Type: post, page, product, peregrinaciones
 
         <!-- ************** CONTENIDO DESPLEGABLE PARA EL BLOG ***  -->
 
-  <article class="conten">
+  <article class="conten-peregrinaciones">
     <div class="mapeo"><?php the_breadcrumb(); ?></div>
+    <!-- p>Pagina: category-peregrinaciones.php</p -->
 <!-- *********************************** -->
 
      <div class="contenido">
@@ -49,7 +50,7 @@ Template Post Type: post, page, product, peregrinaciones
 
       <?php the_field('fecha_de_salida'); ?>
               <?php /* the_field('recorrido');*/ ?>
-              <a href="<?php the_permalink(); ?>">
+              <a class="enlaces" href="<?php the_permalink(); ?>">
                 <img src="<?php the_field('afiche'); ?>" alt="<?php the_field('titulo'); ?>">
               </a>
 

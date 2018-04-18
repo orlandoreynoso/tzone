@@ -16,7 +16,7 @@ Template Post Type: post, page, product, peregrinaciones
 
         <!-- ************** CONTENIDO DESPLEGABLE PARA EL BLOG ***  -->
 
-  <article class="conten">
+  <article class="conten-peregrinaciones">
       <div class="mapeo"><?php dimox_breadcrumbs(); ?></div>
 <!-- *********************************** -->
 
@@ -68,6 +68,7 @@ Template Post Type: post, page, product, peregrinaciones
 
          </div>
         <div class="col-xs-12 col-md-4 contenido-laterales">
+          <div class="search"><?php  get_search_form(); ?></div>
           <?php include (TEMPLATEPATH . '/libs/lateral.php'); ?>
         </div>
      </div>

@@ -18,7 +18,7 @@ the_post_thumbnail( 'mscthumb');
 
 function logo_iata(){
 $logo = IMAGES.'/Iata_official_logo.png'; ?>
-<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo $logo; ?>" alt="TravelZone es: IATA"></a>
+<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>iata"><img src="<?php echo $logo; ?>" alt="TravelZone es: IATA"></a>
 <?php
 }
 

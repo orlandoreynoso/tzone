@@ -7,7 +7,7 @@
 				</a>
 			</div>
 			<div class="col-xs-12 col-md-8 busca-redes">
-				<div class="col-xs-12 col-md-6 redes">
+				<div class="col-xs-12 col-md-6 ia-redes">
 					<div class="iata">						
 						<?php logo_iata(); ?>
 					</div>

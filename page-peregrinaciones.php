@@ -18,10 +18,10 @@ Template Name: peregrinaciones
 
         <!-- ************** CONTENIDO DESPLEGABLE PARA EL BLOG ***  -->
 
-  <article class="conten">
+  <article class="conten-peregrinaciones">
     <div class="mapeo"><?php the_breadcrumb(); ?></div>
 <!-- *********************************** -->
-
+      <!-- p>Pagina: page-peregrinaciones.php</p -->
      <div class="contenido">
             <!-- div class="date-cat">
               <div class="row">

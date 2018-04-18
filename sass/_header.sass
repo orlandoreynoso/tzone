@@ -16,7 +16,7 @@ header
 .t-header
 	display: block
 	.head-tzone
-		padding: 10px 0px
+		padding: 20px 0px 10px 0px
 		background-color: rgba($blanco, 0.6)
 		.logo-tzone
 			.logo
@@ -54,27 +54,35 @@ header
 	justify-content: center
 	align-items: center
 	align-content: center
-	padding: 10px 0
+	padding: 0px 0px
 	font-size: 1em
 	font-weight: bold
-	.iata
-		background-color: red
-		box-sizing: border-box
-		width: 200px
-		height: 83px
-		display: block
-		a
-			display: block
+	.ia-redes
+		text-align: center
+		margin: 0px auto
+		.iata
 			box-sizing: border-box
-			img
-				width: auto
-				height: 83px
+			width: 200px
+			height: 83px
+			display: block
+			margin: 0px auto
+			padding: 0px
+			a
 				display: block
 				box-sizing: border-box
+				&:hover
+					transition: 0.5s ease
+					opacity: 0.8
+				img
+					width: auto
+					height: 83px
+					display: block
+					box-sizing: border-box
+					padding: 0px
+					margin: 0px auto
 	.redes
 		text-align: right
-		.tredes,
-		.busca	
+		.tredes	
 			display: inline-block
 			font-weight: 500
 			.t-cin
@@ -122,6 +130,30 @@ header
 				padding: 7px 10px
 	.busca
 		text-align: right
+		.t-cin
+			display: flex
+			flex-flow: column wrap
+			justify-content: center
+			align-items: center
+			align-content: center
+			text-align: center
+			box-sizing: border-box
+			width: 100%
+			color: $grisoscuro
+			font-weight: 600
+			&:hover
+				text-decoration: none
+			.t-c
+				width: 100%
+			.t-n
+				width: 100%
+				display: block
+				&:hover
+					color: $rojo				
+				.t-i
+					margin-right: 10px
+					color: $rojo
+
 /*==== cargando slide =========*/
 
 @import menu

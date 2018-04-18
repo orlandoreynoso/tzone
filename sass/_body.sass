@@ -113,6 +113,12 @@
 				h3
 					color: $oro
 			.contenido-laterales
+				.search
+					margin: 0px auto 0px auto
+					padding-top: 20px
+					padding-bottom: 10px
+					.searchbar
+						text-align: center
 				.widget
 					list-style: none
 				.suscription
@@ -272,24 +278,26 @@
 					.face
 						margin: 0px auto
 						text-align: center
-.contenido-portada,
-.contenido-general
+/*=====================================*/
+.contenido-portada
 	.widget
 		list-style: none
 	hr
 		color: #333333
-	img
-		max-width: 100%
-		height: auto
-		vertical-align: top
+	blockquote
+		border-left: 5px solid $rojo2
+	strong
+		color: $azul2
 	.size-large
-		margin: 0px auto
+		margin: 0px auto !important
 		width: 100%
-		height: auto	
+		height: auto
+		text-align: center
 	.aligncenter
-		margin: 0px auto
+		margin: 0px auto !important
 		display: block
 		margin: 10px
+		text-align: center
 	.size-full
 		max-width: 100%
 		margin: 10px 0px
@@ -303,7 +311,45 @@
 		margin-top: 20px
 		margin-left: 20px
 		margin-bottom: 20px
-
+/*===== contenido General =============*/
+.contenido-home
+	.contenido-general
+		font-size: 1em
+		line-height: 1.5em
+		blockquote
+			border-left: 5px solid $rojo2
+		strong
+			color: $azul2
+		.size-large
+			margin: 0px auto !important
+			width: 100%
+			height: auto
+			text-align: center
+		.aligncenter
+			margin: 0px auto !important
+			display: block
+			margin: 10px
+			text-align: center
+		.size-full
+			max-width: 100%
+			margin: 10px 0px
+		.alignleft
+			float: left
+			margin-top: 20px
+			margin-right: 20px
+			margin-bottom: 20px
+		.alignright
+			float: right
+			margin-top: 20px
+			margin-left: 20px
+			margin-bottom: 20px
+	.contenido-laterales
+		.search
+			margin: 0px auto 0px auto
+			padding-top: 20px
+			padding-bottom: 10px
+			.searchbar
+				text-align: center		
 /*==================================*/
 
 .contenido-home
@@ -327,7 +373,7 @@
 				h1
 					color: $azul2
 				h2
-					color: $rojo
+					color: $rojo2
 				h3
 					color: $oro
 			.conten
