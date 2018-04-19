@@ -7,7 +7,7 @@
 	<?php include (TEMPLATEPATH . '/files/favicon.php'); ?>
 	<title><?php wp_title( '|', true, 'right' ); ?><?php bloginfo('name'); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/bootstrap.min.css">
+	<!-- link rel="stylesheet" href="<?php // bloginfo('stylesheet_directory'); ?>/css/bootstrap.min.css" -->
 	<?php wp_head(); ?>
 </head>
 <body>
