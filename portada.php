@@ -34,9 +34,10 @@ Template Name: PortadaTravelZone
  <section class="contenido-home">
    <div class="container">
      <div class="row">
-         <div class="col-xs-12 col-md-8 contenido-portada">        
-           <?php // include (TEMPLATEPATH . '/libs/contenido-home.php');  ?>
-           <?php get_template_part( 'template/frontpage', 'contenidos'); ?>
+         <div class="col-xs-12 col-md-8 contenido-portada">
+          <?php get_template_part('template/frontpage','cpt'); ?>             
+          <?php // include (TEMPLATEPATH . '/libs/contenido-home.php');  ?>
+          <?php get_template_part( 'template/frontpage', 'contenidos'); ?>
          </div>
         <div class="col-xs-12 col-md-4 contenido-laterales">
           <div class="search"><?php  get_search_form(); ?></div>

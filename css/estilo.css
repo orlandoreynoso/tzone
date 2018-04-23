@@ -11,7 +11,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #212121;
   font-size: 16px;
   background-color: #ffffff; }
@@ -38,9 +38,9 @@ header {
       .t-header .head-tzone .logo-tzone .logo:hover {
         background-image: url("../images/logow.png");
         filter: alpha(opacity=50);
-        -moz-opacity: 1.0;
+        -moz-opacity: 1;
         opacity: 0.5;
-        -khml-opacity: 1.0;
+        -khml-opacity: 1;
         transition: 0.5s ease;
         -o-transition: 0.5s ease;
         -webkit-transition: 0.5s ease; }
@@ -49,9 +49,9 @@ header {
         max-height: 70px; }
         .t-header .head-tzone .logo-tzone .logo img:hover {
           filter: alpha(opacity=50);
-          -moz-opacity: 1.0;
+          -moz-opacity: 1;
           opacity: 0.5;
-          -khml-opacity: 1.0;
+          -khml-opacity: 1;
           transition: 0.5s ease;
           -o-transition: 0.5s ease;
           -webkit-transition: 0.5s ease; }
@@ -163,8 +163,8 @@ header {
           margin-right: 10px;
           color: #ff5252; }
 
-/*==== cargando slide =========*/
-/*==== meu ===========*/
+/*==== cargando slide ========= */
+/*==== meu =========== */
 .t-header .fa-responsive {
   display: none;
   width: 100%; }
@@ -183,7 +183,7 @@ nav {
       nav .menucin .mini .menu-cssmenu-container ul li {
         list-style: none; }
         nav .menucin .mini .menu-cssmenu-container ul li a {
-          font-family: 'Open Sans', sans-serif;
+          font-family: "Open Sans", sans-serif;
           display: block;
           color: #333;
           text-decoration: none;
@@ -294,7 +294,7 @@ input[type=number]::-webkit-outer-spin-button {
       color: #ffffff;
       text-align: center;
       text-transform: uppercase;
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Open Sans", sans-serif;
       background-color: #ff5252;
       padding: 10px;
       border-radius: 4px; }
@@ -378,12 +378,12 @@ input[type=number]::-webkit-outer-spin-button {
           text-align: center;
           font-size: 1.2em;
           color: #ffffff;
-          font-family: 'Oswald', sans-serif; }
+          font-family: "Oswald", sans-serif; }
         .contenido-home .container .row .contenido-laterales .suscription h2 {
           text-align: center;
           font-size: 1.2em;
           color: #fbc02d;
-          font-family: 'Oswald', sans-serif; }
+          font-family: "Oswald", sans-serif; }
         .contenido-home .container .row .contenido-laterales .suscription input[type="submit"] {
           background-color: #28303d;
           color: #ffffff; }
@@ -409,13 +409,13 @@ input[type=number]::-webkit-outer-spin-button {
         .contenido-home .container .row .contenido-laterales .payoptions h3 {
           text-align: center;
           font-size: 1.2em;
-          font-family: 'Oswald', sans-serif;
+          font-family: "Oswald", sans-serif;
           color: #ffffff; }
         .contenido-home .container .row .contenido-laterales .payoptions h2 {
           text-align: center;
           font-size: 1.2em;
           color: #28303d;
-          font-family: 'Oswald', sans-serif; }
+          font-family: "Oswald", sans-serif; }
         .contenido-home .container .row .contenido-laterales .payoptions .divpagos-contenido {
           overflow: hidden; }
           .contenido-home .container .row .contenido-laterales .payoptions .divpagos-contenido p {
@@ -428,9 +428,9 @@ input[type=number]::-webkit-outer-spin-button {
                 height: auto; }
                 .contenido-home .container .row .contenido-laterales .payoptions .divpagos-contenido p a img:hover {
                   filter: alpha(opacity=50);
-                  -moz-opacity: 1.0;
+                  -moz-opacity: 1;
                   opacity: 0.5;
-                  -khml-opacity: 1.0;
+                  -khml-opacity: 1;
                   transition: 0.5s ease;
                   -o-transition: 0.5s ease;
                   -webkit-transition: 0.5s ease;
@@ -458,7 +458,7 @@ input[type=number]::-webkit-outer-spin-button {
           color: #ffffff;
           padding: 10px;
           font-size: 1.2em;
-          font-family: 'Oswald', sans-serif; }
+          font-family: "Oswald", sans-serif; }
         .contenido-home .container .row .contenido-laterales .lastnews .list {
           padding: 5px;
           margin-bottom: 5px;
@@ -487,9 +487,9 @@ input[type=number]::-webkit-outer-spin-button {
               width: 90%; }
               .contenido-home .container .row .contenido-laterales .lastnews .list .thumb img:hover {
                 filter: alpha(opacity=50);
-                -moz-opacity: 1.0;
+                -moz-opacity: 1;
                 opacity: 0.5;
-                -khml-opacity: 1.0;
+                -khml-opacity: 1;
                 transition: 0.5s ease;
                 -o-transition: 0.5s ease;
                 -webkit-transition: 0.5s ease;
@@ -527,48 +527,40 @@ input[type=number]::-webkit-outer-spin-button {
           margin: 0px auto;
           text-align: center; }
 
-/*=====================================*/
+/*===================================== */
 .contenido-portada .widget {
   list-style: none; }
-
 .contenido-portada hr {
   color: #333333; }
-
 .contenido-portada blockquote {
   border-left: 5px solid #e80919; }
-
 .contenido-portada strong {
   color: #003366; }
-
 .contenido-portada .size-large {
   margin: 0px auto !important;
   width: 100%;
   height: auto;
   text-align: center; }
-
 .contenido-portada .aligncenter {
   margin: 0px auto !important;
   display: block;
   margin: 10px;
   text-align: center; }
-
 .contenido-portada .size-full {
   max-width: 100%;
   margin: 10px 0px; }
-
 .contenido-portada .alignleft {
   float: left;
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px; }
-
 .contenido-portada .alignright {
   float: right;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px; }
 
-/*===== contenido General =============*/
+/*===== contenido General ============= */
 .contenido-home .contenido-general {
   font-size: 1em;
   line-height: 1.5em; }
@@ -599,7 +591,6 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px; }
-
 .contenido-home .contenido-laterales .search {
   margin: 0px auto 0px auto;
   padding-top: 20px;
@@ -607,7 +598,7 @@ input[type=number]::-webkit-outer-spin-button {
   .contenido-home .contenido-laterales .search .searchbar {
     text-align: center; }
 
-/*==================================*/
+/*================================== */
 .contenido-home .container .row .contenido-general {
   padding: 20px; }
   .contenido-home .container .row .contenido-general input[type="submit"] {
@@ -629,28 +620,26 @@ input[type=number]::-webkit-outer-spin-button {
     color: #e80919; }
   .contenido-home .container .row .contenido-general h3 {
     color: #fbc02d; }
-
 .contenido-home .container .row .conten .mapeo {
   padding: 10px 0px; }
-
 .contenido-home .container .row .conten .contenido {
   border-bottom: 1px solid rgba(33, 33, 33, 0.4);
   margin-bottom: 10px;
   padding-bottom: 10px; }
   .contenido-home .container .row .conten .contenido .title {
     font-size: 1.5em;
-    font-family: 'Oswald', sans-serif; }
+    font-family: "Oswald", sans-serif; }
   .contenido-home .container .row .conten .contenido .date-cat {
     padding: 10px; }
     .contenido-home .container .row .conten .contenido .date-cat .fecha {
-      font-family: 'Oswald', sans-serif;
+      font-family: "Oswald", sans-serif;
       font-size: 0.9em;
       color: #28303d; }
       .contenido-home .container .row .conten .contenido .date-cat .fecha .icon-date {
         margin-right: 5px;
         color: #e80919; }
     .contenido-home .container .row .conten .contenido .date-cat .descripcion_categoria {
-      font-family: 'Oswald', sans-serif;
+      font-family: "Oswald", sans-serif;
       font-size: 0.9em;
       float: right;
       text-align: right;
@@ -663,7 +652,7 @@ input[type=number]::-webkit-outer-spin-button {
   .contenido-home .container .row .conten .contenido .info {
     padding: 5px 10px 10px 10px; }
 
-/*=========== Peregrinaciones==========================*/
+/*=========== Peregrinaciones========================== */
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info .enlaces img {
   margin: 0px auto !important;
   display: block;
@@ -671,7 +660,6 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: center;
   border: 5px solid transparent;
   width: 100%; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info img {
   margin: 0px auto !important;
   display: block;
@@ -679,60 +667,53 @@ input[type=number]::-webkit-outer-spin-button {
   text-align: center;
   border: 5px solid transparent;
   width: 100%; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info blockquote {
   border-left: 5px solid #e80919; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info strong {
   color: #003366; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info .size-large {
   margin: 0px auto !important;
   width: 100%;
   height: auto;
   text-align: center; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info .aligncenter {
   margin: 0px auto !important;
   display: block;
   margin: 10px;
   text-align: center; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info .size-full {
   max-width: 100%;
   margin: 10px 0px; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info .alignleft {
   float: left;
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px; }
-
 .contenido-home .contenido-general .conten-peregrinaciones .contenido .info .alignright {
   float: right;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px; }
 
-/*==========================*/
+/*========================== */
 .contenido-home .contenido-general .conten-peregrinaciones .contenido {
   border-bottom: 1px solid rgba(33, 33, 33, 0.4);
   margin-bottom: 10px;
   padding-bottom: 10px; }
   .contenido-home .contenido-general .conten-peregrinaciones .contenido .title {
     font-size: 1.5em;
-    font-family: 'Oswald', sans-serif; }
+    font-family: "Oswald", sans-serif; }
   .contenido-home .contenido-general .conten-peregrinaciones .contenido .date-cat {
     padding: 10px; }
     .contenido-home .contenido-general .conten-peregrinaciones .contenido .date-cat .fecha {
-      font-family: 'Oswald', sans-serif;
+      font-family: "Oswald", sans-serif;
       font-size: 0.9em;
       color: #28303d; }
       .contenido-home .contenido-general .conten-peregrinaciones .contenido .date-cat .fecha .icon-date {
         margin-right: 5px;
         color: #e80919; }
     .contenido-home .contenido-general .conten-peregrinaciones .contenido .date-cat .descripcion_categoria {
-      font-family: 'Oswald', sans-serif;
+      font-family: "Oswald", sans-serif;
       font-size: 0.9em;
       float: right;
       text-align: right;
@@ -745,7 +726,7 @@ input[type=number]::-webkit-outer-spin-button {
   .contenido-home .contenido-general .conten-peregrinaciones .contenido .info {
     padding: 5px 10px 10px 10px; }
 
-/*====================*/
+/*==================== */
 .p-descripciones {
   background-color: #e3e3e3;
   padding: 20px;
@@ -818,7 +799,7 @@ h2.p-itinerario {
         padding: 4px;
         margin: 4px; }
       .navigation .pagenavi .pages:last {
-        content: '>>'; }
+        content: ">>"; }
     .navigation .pagenavi .current {
       padding: 4px;
       background-color: #28303d;
@@ -851,6 +832,31 @@ h2.p-itinerario {
       .navigation .pagenavi .last:hover {
         background-color: #ffffff;
         transition: 0.5s ease; }
+
+.contenido-portada .info {
+  width: var(--sizem);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px; }
+  .contenido-portada .info .titulos-portada {
+    width: var(--sizem);
+    box-sizing: border-box; }
+  .contenido-portada .info .peregrinaciones-portada {
+    width: calc( var(--sizem) /2 );
+    box-sizing: border-box;
+    padding: 20px; }
+    .contenido-portada .info .peregrinaciones-portada .enlaces {
+      display: block;
+      width: 100%; }
+      .contenido-portada .info .peregrinaciones-portada .enlaces img {
+        width: 100%;
+        transition: 0.5s ease; }
+        .contenido-portada .info .peregrinaciones-portada .enlaces img:hover {
+          transition: 0.5s ease;
+          opacity: 0.7; }
 
 #totop {
   display: none;
@@ -893,19 +899,21 @@ footer {
 @media only screen and (max-width: 1024px) {
   body {
     width: 100%; }
+
   header {
     width: 100%;
     height: auto;
     padding-top: 0px; }
+
   nav ul {
     display: block; }
   nav select {
     display: none; } }
-
 @media only screen and (max-width: 959px) {
   body {
     width: 100%;
     box-sizing: border-box; }
+
   .t-header {
     height: 100%;
     overflow: hidde; }
@@ -925,11 +933,11 @@ footer {
         margin: 0px auto;
         padding: 10px;
         text-align: center; } }
-
 @media only screen and (max-width: 767px) {
   body {
     width: 100%;
     box-sizing: border-box; }
+
   .t-header {
     height: 100%;
     overflow: hidde; }
@@ -953,11 +961,11 @@ footer {
         margin: 0px auto;
         padding: 10px;
         text-align: center; } }
-
 @media only screen and (max-width: 479px) {
   body {
     width: 100%;
     box-sizing: border-box; }
+
   .services-one .coti .nf-form-layout .nf-form-content nf-fields-wrap {
     flex-flow: column wrap; }
     .services-one .coti .nf-form-layout .nf-form-content nf-fields-wrap nf-field {
@@ -971,6 +979,7 @@ footer {
       .services-one .coti .nf-form-layout .nf-form-content nf-fields-wrap nf-field .nf-field-container {
         padding: 2px;
         margin: 2px; }
+
   .t-header {
     height: 100%;
     overflow: hidde; }
@@ -1019,6 +1028,7 @@ footer {
           color: #ffffff; }
           .t-header .fa-responsive .resp .iconoresp .btn-menu .icono {
             color: #ffffff; }
+
   nav {
     padding-bottom: 10px;
     padding-top: 10px; }
@@ -1028,5 +1038,6 @@ footer {
       justify-content: space-between; }
       nav .menucin .mini .menu-cssmenu-container ul li a {
         padding: 15px; } }
-
 /*====== esto es para la cotizacion de boletos ===== */
+
+/*# sourceMappingURL=estilo.css.map */
